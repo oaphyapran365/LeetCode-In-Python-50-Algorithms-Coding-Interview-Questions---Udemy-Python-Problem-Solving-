@@ -15,5 +15,13 @@ def binarySearch(arr, target):
 
     return -1
 
+arr = [1, 2, 3, 4, 5, 6]
+target = 6
 
+result = binarySearch(arr, target)
+
+if result != -1:
+    print("Element is present at index %d" % result)
+else:
+    print("Element is not present in array")
 
