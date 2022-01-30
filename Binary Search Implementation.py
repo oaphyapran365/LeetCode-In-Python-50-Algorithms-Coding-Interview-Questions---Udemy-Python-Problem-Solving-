@@ -21,7 +21,7 @@ target = 6
 result = binarySearch(arr, target)
 
 if result !=1 :
-    print("Element is present at index",result)
+    print("Element is present at index ",result)
 else:
     print("Element is not present in array")
 
